@@ -1,1 +1,1 @@
-
+let { body, head } = document
