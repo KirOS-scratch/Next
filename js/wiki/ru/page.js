@@ -9,8 +9,8 @@ if (page === "main") {
   body.innerHTML = `
     <h1>Вики про KirOS Next</h1>
     <h2>Ссылки</h2>
-    <p><a href="?p=Download"><button>Download</button></a></p>
-    <p><a href="?p=OpenInBrowser"><button>Open in browser</button></a></p>
-    <p><a href="?p=documentation"><button>Documentation</button></a></p>
+    <p><a href="?p=Download"><button>Скачать</button></a></p>
+    <p><a href="?p=OpenInBrowser"><button>Открыть в браузере</button></a></p>
+    <p><a href="?p=documentation"><button>Документация</button></a></p>
   `
 }
