@@ -11,6 +11,6 @@ if (page === "main") {
     <h2>Ссылки</h2>
     <p><a href="?p=Download"><button>Скачать</button></a></p>
     <p><a href="?p=OpenInBrowser"><button>Открыть в браузере</button></a></p>
-    <p><a href="?p=documentation"><button>Документация</button></a></p>
+    <p><a href="?p=docs"><button>Документация</button></a></p>
   `
-}
+} else if (page === "Download") {} else if (page === "OpenInBrowser") {} else if (page === "docs") {}
