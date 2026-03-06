@@ -1,7 +1,7 @@
 let { body, head } = document
 const url = new URL(window.location)
 const sP = url.searchParams
-const page = sp.get("p")
+const page = sP.get("p")
 if (page === "main") {
   head.innerHTML = `
     <title>Главная страница - Next Вики</title>
@@ -14,19 +14,19 @@ if (page === "main") {
     <p><a href="?p=docs"><button>Документация</button></a></p>
   `
 } else if (page === "Download") {
-    head.innerHTML = `
+  head.innerHTML = `
     <title>Загрузки - Next</title>
   `
   body.innerHTML = `
- <p>placeholder</p>`
+    <p>placeholder</p>`
 } else if (page === "OpenInBrowser") {
   head.innerHTML = `
-  <title> Открыть в браузере - Next </title>
+    <title> Открыть в браузере - Next </title>
   `
 } else if (page === "docs") {
-      head.innerHTML = `
+  head.innerHTML = `
     <title>Загрузки - Next</title>
   `
   body.innerHTML = `
- <p>placeholder</p>`
+    <p>placeholder</p>`
 }
