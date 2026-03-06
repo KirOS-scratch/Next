@@ -25,7 +25,7 @@ if (page === "main") {
   `
 } else if (page === "docs") {
   head.innerHTML = `
-    <title>Загрузки - Next</title>
+    <title>Документация - Next</title>
   `
   body.innerHTML = `
     <p>placeholder</p>`
